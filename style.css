@@ -1,0 +1,72 @@
+/* COLOR CODE: #fa0019 */
+
+.main-body-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.nav-overall-container {
+  position: absolute;
+  top: 2%;
+  width: 100%;
+}
+
+.hero-img {
+  height: 90vh;
+  width: 100%;
+}
+
+.top-nav-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.nav-section-item {
+  display: flex;
+  flex-direction: column;
+}
+
+/* @overriding base class */
+.navbar {
+  background-color: #fff !important;
+}
+
+.nav-container {
+  margin-top: 40px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.web-btn {
+  border-radius: 0;
+  background-color: #fa0019;
+  color: #fff;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: none;
+}
+
+.hero-section-text {
+  margin-top: 80px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-left: 20%;
+  max-width: 600px;
+  overflow: hidden;
+  white-space: normal;
+  text-align: left !important;
+}
+
+.section-heading {
+  font-size: 60px;
+  font-weight: 700;
+}
